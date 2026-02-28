@@ -16,7 +16,6 @@ const rackets = [
     idealFor: "Napredni / profesionalni igrači koji traže maksimalnu snagu i agresivnu igru s osnovne linije.",
     pros: ["Iznimna snaga i eksplozivan izlaz lopte", "Vrhunski spin potencijal", "Visoka stabilnost pri jakim udarcima"],
     cons: ["Malen sweet spot — kažnjava greške", "Dijamant balans otežava igru na mreži", "Tvrd i nepopustljiv za ruku"],
-    armRisk: "🔴 VISOK — Tvrd EVA HRB core + dijamant balans = maksimalan stres na lakat i rame. Za tebe je ovo loš izbor.",
     price: "~185 €",
   },
   {
@@ -34,7 +33,6 @@ const rackets = [
     idealFor: "Profesionalni igrači poput Tella — agresivna osnovna linija, maksimalna snaga.",
     pros: ["Eksplozivna snaga — Top tier", "Carbon 18K za vrhunski spin", "Iznimna stabilnost"],
     cons: ["Izuzetno tvrd — pro-level alat", "Malen sweet spot kažnjava svaki netačan udarac", "Najgori od svih za ruku"],
-    armRisk: "🔴🔴 KRITIČNO — Najtvrđi reket na listi. Multiglass + HR3 core + dijamant = gotovo zajamčena bol u laktu za rekreativce. Bježi od ovog.",
     price: "~190 €",
   },
   {
@@ -52,7 +50,6 @@ const rackets = [
     idealFor: "Rekreativni do intermedijarni igrači koji vole mrežu i kontrolu s elementima snage.",
     pros: ["EVA Soft = komforan za ruku", "Okrugao oblik → veliki sweet spot", "Odličan manevar na mreži", "Solidan balans snage i kontrole"],
     cons: ["Carbon 12K može biti malo tvrd na rubovima", "Snaga ispod dijamant reketa", "Manje spin potencijala vs carbon competition"],
-    armRisk: "🟡 NIZAK-SREDNJI — EVA Soft core štiti ruku. Pazi na tehniku — greške s rubom mogu prenijeti vibracije.",
     price: "~175 €",
   },
   {
@@ -70,7 +67,6 @@ const rackets = [
     idealFor: "Napredni igrači koji žele pro performansu s nešto boljim value vs 2025 verziji.",
     pros: ["Odlična snaga", "Nešto povoljniji od 2025 verzije", "Vrhunski carbon"],
     cons: ["Dijamant balans — loš za mrežu", "Tvrd core — ne tolerira greške", "Stariji model — manja dostupnost"],
-    armRisk: "🔴 VISOK — Isti problemi kao 2025, možda nešto blaže ali i dalje loš za osetljivo rame/lakat.",
     price: "~155–170 €",
   },
   {
@@ -85,10 +81,9 @@ const rackets = [
     verdict: "buy",
     verdictLabel: "✅ Kupi",
     scores: { kontrola: 8, snaga: 7, sweetSpot: 9, mreza: 9, stabilnost: 7, izlaz: 7, spin: 7, tolerancija: 9, komfor: 9, value: 9 },
-    idealFor: "Rekreativni igrači koji igraju 1–3x nedeljno, idu na mrežu, žele komfor i balans bez rizika za ruku.",
-    pros: ["Softeva core — arm-friendly #1 na listi", "Hybrid oblik = velik sweet spot + kontrola", "Srednji balans savršen za voleje i smash", "Iznimna tolerancija grešaka"],
+    idealFor: "Rekreativni igrači koji igraju 1–3x nedeljno, idu na mrežu, žele komfor i balans.",
+    pros: ["Softeva core — komforan i blag", "Hybrid oblik = velik sweet spot + kontrola", "Srednji balans savršen za voleje i smash", "Iznimna tolerancija grešaka"],
     cons: ["Manje eksplozivna snaga od dijamant reketa", "Fiberglass je manje 'sexy' od full carbon", "Nije za agresivne power igrače"],
-    armRisk: "🟢 NIZAK — Softeva je najblažiji core. Idealno za osetljivo rame i lakat. Topla preporuka.",
     price: "~160–180 €",
   },
   {
@@ -105,8 +100,7 @@ const rackets = [
     scores: { kontrola: 9, snaga: 7, sweetSpot: 8, mreza: 8, stabilnost: 7, izloz: 7, spin: 7, tolerancija: 8, komfor: 7, value: 8 },
     idealFor: "Rekreativni do intermedijarni igrači koji žele preciznost i kontrolu s elementima snage i Adidas brendom.",
     pros: ["Vrhunska kontrola — CTRL u imenu nije slučajan", "Carbon 12K za dobar spin", "Híbrid oblik = dobar sweet spot", "Komfor bolji od standardnog Metalbonea"],
-    cons: ["EVA Medium može biti iritirajuć za osetljivi lakat dugoročno", "Skuplje od Head Extreme za slične karakteristike", "Manje snage od originalnog Metalbonea"],
-    armRisk: "🟡 SREDNJI — EVA Medium nije loš, ali nije ni Softeva. Ako je rame problematično, Head Extreme je sigurniji.",
+    cons: ["Skuplje od Head Extreme za slične karakteristike", "Manje snage od originalnog Metalbonea"],
     price: "~175–195 €",
   },
 ];
@@ -129,7 +123,7 @@ const top3 = [
     rank: 1,
     id: 5,
     name: "Head Extreme One X 2025",
-    why: "Savršen fit za tvoj profil. Softeva core štiti osetljivo rame i lakat, híbrid oblik daje velik sweet spot za rekreativne greške, srednji balans idealan za voleje na mreži. Blagi prioritet snage zadovoljen kroz carbon površinu. Ovo je jedini reket na listi koji ispunjava SVE tvoje zahtjeve bez kompromisa.",
+    why: "Savršen fit za tvoj profil. Híbrid oblik daje velik sweet spot za rekreativne greške, srednji balans idealan za voleje na mreži. Blagi prioritet snage zadovoljen kroz carbon površinu. Ovo je jedini reket na listi koji ispunjava SVE tvoje zahtjeve bez kompromisa.",
     badge: "🥇 Naša preporuka",
     color: "#FFD700",
   },
@@ -145,20 +139,20 @@ const top3 = [
     rank: 3,
     id: 6,
     name: "Adidas Metalbone CTRL 3.4",
-    why: "Odlična kontrola i prepoznatljiv brend, ali EVA Medium core je blagi rizik za tvoje rame dugoročno. Vrijedi razmotriti ako je kontrola apsolutni prioritet iznad svega — ali prati reakciju ruke prvih 3-4 sedmice.",
+    why: "Odlična kontrola i prepoznatljiv brend. Vrijedi razmotriti ako je kontrola apsolutni prioritet iznad svega.",
     badge: "🥉 Ako voliš Adidas",
     color: "#CD7F32",
   },
 ];
 
 const alternatives = [
-  { name: "Babolat Air Vertuo 2024", price: "~140 €", why: "Lak, híbrid, arm-friendly. Idealan starter za mrežu.", armRisk: "🟢" },
-  { name: "Wilson Bela Pro V2.0", price: "~165 €", why: "Balans snage i kontrole, srednji balans, EVA soft varijanta.", armRisk: "🟡" },
-  { name: "Bullpadel Hack 04 Control", price: "~150 €", why: "Bullpadel u kontrolnoj verziji — dijamant ali mekan, bolja opcija od Vertexa.", armRisk: "🟡" },
+  { name: "Babolat Air Vertuo 2024", price: "~140 €", why: "Lak, híbrid. Idealan starter za mrežu." },
+  { name: "Wilson Bela Pro V2.0", price: "~165 €", why: "Balans snage i kontrole, srednji balans, EVA soft varijanta." },
+  { name: "Bullpadel Hack 04 Control", price: "~150 €", why: "Bullpadel u kontrolnoj verziji — dijamant ali mekan, bolja opcija od Vertexa." },
 ];
 
 const checklist = [
-  { icon: "✋", text: "Održi reket u ruci 30 sekundi — da li ti je zglob opušten ili napet? Težak reket = više stresa na rame." },
+  { icon: "✋", text: "Održi reket u ruci 30 sekundi — da li ti je zglob opušten ili napet?" },
   { icon: "⚖️", text: "Provjeri balans: stavi prst na sredinu drške. Prebacuje li se prema glavi (visok balans = snaga ali teže na mreži)?" },
   { icon: "🎯", text: "Udari loptu sredinom i rubom — da li vibracija ide u ruku? Ako da, core je pretvrд za tebe." },
   { icon: "🌐", text: "Simuliraj volej: drži reket kratko i napravi brzi blok. Da li je reket manevrabilan ili 'visi'?" },
@@ -228,7 +222,6 @@ export default function PadelAnalysis() {
               { label: "👤 M, 173cm, 84kg", bg: "#1e3a5f" },
               { label: "🎯 1–3x nedeljno", bg: "#1e3a5f" },
               { label: "🌐 Mreža + blagi power", bg: "#1e3a5f" },
-              { label: "⚠️ Osetljivo rame/lakat", bg: "#3b1a1a" },
             ].map(t => (
               <span key={t.label} style={{
                 background: t.bg, padding: "4px 12px", borderRadius: 20,
@@ -410,14 +403,6 @@ export default function PadelAnalysis() {
                 </div>
               </div>
 
-              {/* Arm risk */}
-              <div style={{
-                background: "rgba(239,68,68,0.08)", border: "1px solid rgba(239,68,68,0.2)",
-                borderRadius: 10, padding: "14px 16px",
-              }}>
-                <h3 style={{ margin: "0 0 6px", fontSize: 13, color: "#fca5a5", fontWeight: 700, textTransform: "uppercase" }}>💪 Rizik za lakat/rame</h3>
-                <p style={{ margin: 0, fontSize: 13, color: "#e2e8f0", lineHeight: 1.5 }}>{racket.armRisk}</p>
-              </div>
             </div>
           </div>
         )}
@@ -474,7 +459,7 @@ export default function PadelAnalysis() {
                     background: "#0f2035", borderRadius: 10, padding: "12px 16px",
                     display: "flex", gap: 12, alignItems: "center", flexWrap: "wrap",
                   }}>
-                    <span style={{ fontSize: 18 }}>{a.armRisk}</span>
+                    <span style={{ fontSize: 18 }}>🏓</span>
                     <div style={{ flex: 1 }}>
                       <div style={{ fontWeight: 700, color: "#e2e8f0", fontSize: 14 }}>{a.name}</div>
                       <div style={{ fontSize: 12, color: "#94a3b8", marginTop: 2 }}>{a.why}</div>
